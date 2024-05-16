@@ -1,0 +1,117 @@
+<section>
+    <enhanced:img loading="lazy" src="../assets/newfence.jpg" class="bg-image" alt="Background for the home page." sizes="min(1280px, 100vw)" />
+    <div class="cover" />
+    <div class="text">
+        <h2>Elevate Your Outdoor Space with Expert Fence Building</h2>
+        <p>Transform your property with our top-quality fencing solutions!</p>
+        <a href="/contact?r=s1">Get a Free Quote</a>
+    </div>
+</section>
+
+<style>
+    section {
+        width: 100%;
+        height: 100vh;
+        position: relative;
+        display: flex;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .text {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+    }
+
+    h2 {
+        font-family: "Arimo", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+        color: #ffffff;
+        font-size: 29px;
+        line-height: 35px;
+    }
+
+    p {
+        font-family: "Arimo", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: normal;
+        font-style: normal;
+        color: #ffffff;
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    a {
+        font-family: "Arimo", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+        color: #000000;
+        font-size: 13px;
+        text-decoration: none;
+        background-color: #D79D40;
+        display: block;
+        width: fit-content;
+        padding: 6px 12px;
+        border-radius: 6px;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    }
+
+    .bg-image {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50.1%, -50.1%);
+        width: 100%;
+        height: auto;
+        z-index: -1;
+    }
+
+    @media screen and (max-width: 820px) {
+        .bg-image {
+            min-width: 100%;
+            width: auto;
+            min-height: 100%;
+            object-fit: cover;
+        }
+    }
+
+    .cover {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.445);
+        z-index: -1;
+    }
+
+    @media screen and (min-width: 800px) {
+        section {
+            padding: 150px;
+        }
+
+        .text {
+            align-items: center;
+            gap: 30px;
+        }
+
+        h2 {
+            text-align: center;
+            line-height: clamp(3.125rem, 0rem + 6.25vw, 4.6875rem);
+            font-size: clamp(2.1875rem, -1.4375rem + 7.25vw, 4rem);
+        }
+
+        p {
+            font-size: clamp(0.9375rem, 0.3125rem + 1.25vw, 1.25rem);
+        }
+
+        a {
+            padding: 9px 17px;
+        }
+    }
+</style>

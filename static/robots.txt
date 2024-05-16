@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: 
+Disallow: /cgi-bin/
+Disallow: /admin/
+Disallow: /dashboard/
+Sitemap: https://thelocalfenceco.com/sitemap.xml
