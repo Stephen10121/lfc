@@ -3,16 +3,16 @@
 
     import fence from "../../assets/fences.svg";
     import globe from "../../assets/globe.svg";
-    import cone from "../../assets/cone.svg";
+    import dollar from "../../assets/dollar.svg";
 </script>
 
 <section>
-    <h2 class="arimo">Why a Vinyl Fence?</h2>
-    <p class="arimo">See the benefits of having a Vinyl fence.</p>
+    <h2 class="arimo">Why a Custom Design Fence?</h2>
+    <p class="arimo">See the benefits of having a Custom Design fence.</p>
     <div class="cards">
-        <Card icon={fence} title="Aesthetics" p="Vinyl fences can maintain their appearance longer than wood fences because they don't warp or rot. Both sides of the fence look amazing." />
-        <Card icon={cone} title="Safety" p="Vinyl fences are safe and don't attract termites." />
-        <Card icon={globe} title="Environmentally friendly" p="Vinyl is an eco-friendly material that requires fewer resources to produce and releases fewer emissions into the environment." />
+        <Card icon={fence} title="Creative freedom" p="You can incorporate unique features like decorative accents, built-in planters, or custom gates to showcase your personal style." />
+        <Card icon={dollar} title="Property value" p="Due to the unique look of the fence, your property value can increase the aesthetic of your property." />
+        <Card icon={globe} title="Privacy and security" p="Custom fences can help you avoid unwanted interactions and prying eyes." />
     </div>
 </section>
 

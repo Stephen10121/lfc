@@ -1,0 +1,82 @@
+<section>
+    <enhanced:img loading="lazy" src="../../assets/fence5.jpg" class="bg-image" alt="Background for the home page." sizes="min(1280px, 100vw)" />
+    <div class="cover" />
+    <div class="text">
+        <h2 class="arimo">Custom Design Fences</h2>
+        <p class="arimo">Tailored Perfection, Lasting Impressions.</p>
+    </div>
+</section>
+
+<style>
+    section {
+        width: 100%;
+        height: 100vh;
+        position: relative;
+        display: flex;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .text {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+    }
+
+    h2 {
+        font-weight: 600;
+        color: #ffffff;
+        font-size: 29px;
+        line-height: 35px;
+    }
+
+    p {
+        font-weight: normal;
+        color: #ffffff;
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .bg-image {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50.1%, -50.1%);
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+    }
+
+    .cover {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.445);
+        z-index: -1;
+    }
+
+    @media screen and (min-width: 800px) {
+        section {
+            padding: 150px;
+        }
+
+        .text {
+            align-items: center;
+            gap: 30px;
+        }
+
+        h2 {
+            text-align: center;
+            line-height: clamp(3.125rem, 0rem + 6.25vw, 4.6875rem);
+            font-size: clamp(2.1875rem, -1.4375rem + 7.25vw, 4rem);
+        }
+
+        p {
+            font-size: clamp(0.9375rem, 0.3125rem + 1.25vw, 1.25rem);
+        }
+    }
+</style>
