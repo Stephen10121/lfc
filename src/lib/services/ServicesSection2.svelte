@@ -6,7 +6,7 @@
     </div>
     <div class="p1">
         <h2 class="arimo">Cedar Privacy Fences</h2>
-        <p class="arimo">A cedar fence is a popular choice in the Pacific Northwest for a privacy fence. Cedar Privacy Fences offer great protection and security of your yard and your property, giving you that peace of mind. The long lasting cedar is very durable, withstanding the rainy months and the dry summers. With its natural oils, cedar wood repels insects and bugs to stay away from your fence. Not only is it durable, but the design fits a variety of styles like rustic, modern, suburbs, etc. There are many different designs to choose from, giving you the opportunity to find what's your taste and what fits your yard best!</p>
+        <p class="arimo">With the beautiful design and the great durability, you can't go wrong when choosing the Cedar Privacy Fence! We will install your Cedar Fence in a timely manner with high efforts to provide you the best quality and customer satisfaction!</p>
         <a href="/services/cedar" class="arimo">Learn More About Cedar Privacy Fences</a>
     </div>
 </section>

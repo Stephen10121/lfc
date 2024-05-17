@@ -43,7 +43,7 @@
     <ServicesSection3 />
     <ServicesSection4 />
     <ServicesSection5 />
-    <GetInTouchSection />
+    <GetInTouchSection whereFrom="services-section" />
 </main>
 
 <style>

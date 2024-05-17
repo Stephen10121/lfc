@@ -1,7 +1,7 @@
 import { Resend } from "resend";
 
-export async function sendForm(email: string, name: string, desc: string) {
-    console.log({email, name, desc});
+export async function sendForm(email: string, name: string, desc: string, whereFrom: string | null) {
+    console.log({email, name, desc, whereFrom});
     return;
     const resend = new Resend(import.meta.env.VITE_RESEND_KEY);
     const { data, error } = await resend.emails.send({

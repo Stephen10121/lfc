@@ -1,12 +1,9 @@
 <script lang="ts">
     import GetInTouchSection from "$lib/GetInTouchSection.svelte";
     import Toast from "$lib/Toast.svelte";
-    import ServicesSection1 from "$lib/services/ServicesSection1.svelte";
-    import ServicesSection2 from "$lib/services/ServicesSection2.svelte";
-    import ServicesSection3 from "$lib/services/ServicesSection3.svelte";
-    import ServicesSection4 from "$lib/services/ServicesSection4.svelte";
-    import ServicesSection5 from "$lib/services/ServicesSection5.svelte";
     import CedarSection1 from "$lib/services/cedar/CedarSection1.svelte";
+    import CedarSection2 from "$lib/services/cedar/CedarSection2.svelte";
+    import CedarSection3 from "$lib/services/cedar/CedarSection3.svelte";
 
     export let form;
 </script>
@@ -14,7 +11,7 @@
 <svelte:head>
     <link rel="canonical" href="https://thelocalfenceco.com/about" />
     <title>Cedar Fences | Local Fence Co</title>
-    <meta name="title" content="Services | Local Fence Co" />
+    <meta name="title" content="Cedar Fences | Local Fence Co" />
 	<meta name="description" content="Cedar fences are visually attractive and durable. Enjoy their esthetic appeal and low maintenance for years to come!" />
 
     <!-- Open Graph / Facebook -->
@@ -40,11 +37,9 @@
 
 <main>
     <CedarSection1 />
-    <ServicesSection2 />
-    <ServicesSection3 />
-    <ServicesSection4 />
-    <ServicesSection5 />
-    <GetInTouchSection />
+    <CedarSection2 />
+    <CedarSection3 />
+    <GetInTouchSection whereFrom="cedar-section" />
 </main>
 
 <style>

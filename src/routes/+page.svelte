@@ -40,7 +40,7 @@
     <Section1 />
     <Section2 />
     <Section3 />
-    <GetInTouchSection />
+    <GetInTouchSection whereFrom="home-section" />
     <Section4 />
 </main>
 

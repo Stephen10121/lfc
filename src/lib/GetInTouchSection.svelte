@@ -1,5 +1,7 @@
 <script lang="ts">
     import { enhance } from '$app/forms';
+
+    export let whereFrom: string;
 </script>
 
 <section>
@@ -7,6 +9,7 @@
         <h2 class="arimo">Get in Touch</h2>
         <p class="arimo">Fill out the form below to request a free quote or learn more about our services.</p>
         <form method="POST" use:enhance>
+            <input type="hidden" name="whereFrom" value={whereFrom} />
             <input required name="name" class="arimo" type="text" placeholder="Name" />
             <input required name="email" class="arimo" type="enail" placeholder="Email" />
             <textarea required name="what" class="arimo" placeholder="Message"></textarea>

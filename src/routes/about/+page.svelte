@@ -39,7 +39,7 @@
     <AboutSection1 />
     <AboutSection2 />
     <AboutSection3 />
-    <GetInTouchSection />
+    <GetInTouchSection whereFrom="about-section" />
 </main>
 
 <style>
