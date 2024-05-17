@@ -6,5 +6,13 @@ export default defineConfig({
 	plugins: [
 		enhancedImages(),
 		sveltekit()
-	]
+	],
+	server: {
+		port: 7401,
+		strictPort: false
+	},
+	preview: {
+		port: 7401,
+		strictPort: false
+	}
 });
