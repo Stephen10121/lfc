@@ -1,9 +1,6 @@
 <script lang="ts">
     import GetInTouchSection from "$lib/GetInTouchSection.svelte";
     import Toast from "$lib/Toast.svelte";
-    import CedarSection1 from "$lib/services/cedar/CedarSection1.svelte";
-    import CedarSection2 from "$lib/services/cedar/CedarSection2.svelte";
-    import CedarSection3 from "$lib/services/cedar/CedarSection3.svelte";
     import ChainSection1 from "$lib/services/chain/ChainSection1.svelte";
     import ChainSection2 from "$lib/services/chain/ChainSection2.svelte";
     import ChainSection3 from "$lib/services/chain/ChainSection3.svelte";
