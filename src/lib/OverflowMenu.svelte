@@ -8,7 +8,7 @@
         <nav>
             <a class="outfit {$page.url.pathname==="/" ? "selected" : "non"}" href="/">Home</a>
             <a class="outfit {$page.url.pathname==="/about" ? "selected" : "non"}" href="/about">About Us</a>
-            <a class="outfit {$page.url.pathname==="/services" ? "selected" : "non"}" href="/services">Services</a>
+            <a class="outfit {$page.url.pathname.includes("/services") ? "selected" : "non"}" href="/services">Services</a>
             <a class="outfit {$page.url.pathname==="/gallery" ? "selected" : "non"}" href="/gallery">Gallery</a>
             <a class="outfit {$page.url.pathname==="/contact" ? "selected" : "non"}" href="/contact">Contact</a>
         </nav>

@@ -29,7 +29,7 @@
     <nav class="links">
         <a class="arimo {$page.url.pathname==="/" ? "selected" : "non"}" href="/">Home</a>
         <a class="arimo {$page.url.pathname==="/about" ? "selected" : "non"}" href="/about">About Us</a>
-        <a class="arimo {$page.url.pathname==="/services" ? "selected" : "non"}" href="/services">Services</a>
+        <a class="arimo {$page.url.pathname.includes("/services") ? "selected" : "non"}" href="/services">Services</a>
         <a class="arimo {$page.url.pathname==="/gallery" ? "selected" : "non"}" href="/gallery">Gallery</a>
         <a class="arimo {$page.url.pathname==="/contact" ? "selected" : "non"}" href="/contact?r=l">Contact</a>
     </nav>
