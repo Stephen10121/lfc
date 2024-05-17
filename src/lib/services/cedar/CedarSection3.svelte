@@ -10,8 +10,8 @@
     <h2 class="arimo">Why a Cedar Fence?</h2>
     <p class="arimo">See the benefits of having a cedar fence.</p>
     <div class="cards">
-        <Card icon={clock} title="Durability" p="Cedar is one of the most durable wood options for fences, and can last up to 15-20 years with proper maintenance. Cedar's natural oils make it resistant to rot, warping, and termites." />
-        <Card icon={hammer} title="Low maintenance" p="Cedar fences require less maintenance and repairs than other wood fences. However, they do require regular maintenance, such as staining or sealing, to protect the wood from the elements." />
+        <Card icon={clock} title="Durability" p="It's one of the most durable wood options. It can last up to 15-20 years with proper maintenance." />
+        <Card icon={hammer} title="Low maintenance" p="Cedar fences require less maintenance and repairs than other wood fences." />
         <Card icon={fence} title="Natural beauty" p="Cedar wood is naturally elegant which can bring aesthetic value to your home." />
     </div>
 </section>

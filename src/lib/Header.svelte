@@ -31,7 +31,7 @@
         <a class="arimo {$page.url.pathname==="/about" ? "selected" : "non"}" href="/about">About Us</a>
         <a class="arimo {$page.url.pathname.includes("/services") ? "selected" : "non"}" href="/services">
             Services ▾
-            <span class="nested">
+            <span class="nested" style="display: none;">
                 <nav>
                     <a class="arimo {$page.url.pathname==="/services/cedar" ? "selected" : "non"}" href="/services/cedar">Cedar Privacy Fences</a>
                     <a class="arimo {$page.url.pathname==="/services/chain-link" ? "selected" : "non"}" href="/services/chain-link">Chain-link Fences</a>
@@ -104,11 +104,10 @@
     }
 
     a:hover .nested{
-        display: block;
+        display: block !important;
     }
 
     .nested {
-        display: none;
         position: absolute;
         left: 50%;
         bottom: 0;
