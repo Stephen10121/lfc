@@ -3,8 +3,8 @@
 </script>
 
 <section>
-    <h2>Our Portfolio</h2>
-    <p>Explore our completed projects.</p>
+    <h2 class="arimo">Our Portfolio</h2>
+    <p class="arimo">Explore our completed projects.</p>
     <div class="cards">
         <ServicesCard>
             <enhanced:img sizes="min(1280px, 100vw)" loading="lazy" class="image-box-image" src="../assets/fence2.jpg" alt="A very nice looking fence." />
@@ -41,20 +41,14 @@
     }
 
     h2 {
-        font-family: "Arimo", sans-serif;
-        font-optical-sizing: auto;
         font-weight: 700;
-        font-style: normal;
         color: #ffffff;
         font-size: 29px;
         line-height: 35px;
     }
 
     p {
-        font-family: "Arimo", sans-serif;
-        font-optical-sizing: auto;
         font-weight: normal;
-        font-style: normal;
         color: #9CA3A5;
         font-size: 15px;
         line-height: 20px;

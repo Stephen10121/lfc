@@ -2,9 +2,9 @@
     <enhanced:img loading="lazy" src="../assets/newfence.jpg" class="bg-image" alt="Background for the home page." sizes="min(1280px, 100vw)" />
     <div class="cover" />
     <div class="text">
-        <h2>Elevate Your Outdoor Space with Expert Fence Building</h2>
-        <p>Transform your property with our top-quality fencing solutions!</p>
-        <a href="/contact?r=s1">Get a Free Quote</a>
+        <h2 class="arimo">Elevate Your Outdoor Space with Expert Fence Building</h2>
+        <p class="arimo">Transform your property with our top-quality fencing solutions!</p>
+        <a class="arimo" href="/contact?r=s1">Get a Free Quote</a>
     </div>
 </section>
 
@@ -26,30 +26,21 @@
     }
 
     h2 {
-        font-family: "Arimo", sans-serif;
-        font-optical-sizing: auto;
         font-weight: 600;
-        font-style: normal;
         color: #ffffff;
         font-size: 29px;
         line-height: 35px;
     }
 
     p {
-        font-family: "Arimo", sans-serif;
-        font-optical-sizing: auto;
         font-weight: normal;
-        font-style: normal;
         color: #ffffff;
         font-size: 15px;
         line-height: 20px;
     }
 
     a {
-        font-family: "Arimo", sans-serif;
-        font-optical-sizing: auto;
         font-weight: 600;
-        font-style: normal;
         color: #000000;
         font-size: 13px;
         text-decoration: none;

@@ -4,13 +4,13 @@
 
 <section>
     <section class="links">
-        <h3>Navigate</h3>
+        <h3 class="outfit">Navigate</h3>
         <nav>
-            <a class="{$page.url.pathname==="/" ? "selected" : "non"}" href="/">Home</a>
-            <a class="{$page.url.pathname==="/about" ? "selected" : "non"}" href="/about">About Us</a>
-            <a class="{$page.url.pathname==="/services" ? "selected" : "non"}" href="/services">Services</a>
-            <a class="{$page.url.pathname==="/gallery" ? "selected" : "non"}" href="/gallery">Gallery</a>
-            <a class="{$page.url.pathname==="/contact" ? "selected" : "non"}" href="/contact">Contact</a>
+            <a class="outfit {$page.url.pathname==="/" ? "selected" : "non"}" href="/">Home</a>
+            <a class="outfit {$page.url.pathname==="/about" ? "selected" : "non"}" href="/about">About Us</a>
+            <a class="outfit {$page.url.pathname==="/services" ? "selected" : "non"}" href="/services">Services</a>
+            <a class="outfit {$page.url.pathname==="/gallery" ? "selected" : "non"}" href="/gallery">Gallery</a>
+            <a class="outfit {$page.url.pathname==="/contact" ? "selected" : "non"}" href="/contact">Contact</a>
         </nav>
     </section>
 </section>
@@ -44,10 +44,7 @@
     }
 
     .links h3 {
-        font-family: "Outfit", sans-serif;
-        font-optical-sizing: auto;
         font-weight: 600;
-        font-style: normal;
         color: #ffffff;
         font-size: 25px;
     }
@@ -59,10 +56,7 @@
     }
 
     .links a {
-        font-family: "Outfit", sans-serif;
-        font-optical-sizing: auto;
         font-weight: normal;
-        font-style: normal;
         color: #ffffff;
         font-size: 15px;
         text-decoration: none;

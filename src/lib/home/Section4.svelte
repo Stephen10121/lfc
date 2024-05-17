@@ -1,13 +1,11 @@
 <script lang="ts">
     import ReviewCard from "$lib/ReviewCard.svelte";
-import ServicesCard from "$lib/ServicesCard.svelte";
-
     import { reviews } from "$lib/reviews";
 </script>
 
 <section>
-    <h2>Testimonials</h2>
-    <p>See what people are saying about us.</p>
+    <h2 class="arimo">Testimonials</h2>
+    <p class="arimo">See what people are saying about us.</p>
     <div class="cards">
         {#each reviews as review}
             <ReviewCard who={review.name} what={review.message} />
@@ -29,20 +27,14 @@ import ServicesCard from "$lib/ServicesCard.svelte";
     }
 
     h2 {
-        font-family: "Arimo", sans-serif;
-        font-optical-sizing: auto;
         font-weight: 700;
-        font-style: normal;
         color: #ffffff;
         font-size: 29px;
         line-height: 35px;
     }
 
     p {
-        font-family: "Arimo", sans-serif;
-        font-optical-sizing: auto;
         font-weight: normal;
-        font-style: normal;
         color: #9CA3A5;
         font-size: 15px;
         line-height: 20px;

@@ -27,16 +27,16 @@
 <header class={cl}>
     <img height="42.5" width="125" src={logo} alt="LFC Logo" />
     <nav class="links">
-        <a class="{$page.url.pathname==="/" ? "selected" : "non"}" href="/">Home</a>
-        <a class="{$page.url.pathname==="/about" ? "selected" : "non"}" href="/about">About Us</a>
-        <a class="{$page.url.pathname==="/services" ? "selected" : "non"}" href="/services">Services</a>
-        <a class="{$page.url.pathname==="/gallery" ? "selected" : "non"}" href="/gallery">Gallery</a>
-        <a class="{$page.url.pathname==="/contact" ? "selected" : "non"}" href="/contact?r=l">Contact</a>
+        <a class="arimo {$page.url.pathname==="/" ? "selected" : "non"}" href="/">Home</a>
+        <a class="arimo {$page.url.pathname==="/about" ? "selected" : "non"}" href="/about">About Us</a>
+        <a class="arimo {$page.url.pathname==="/services" ? "selected" : "non"}" href="/services">Services</a>
+        <a class="arimo {$page.url.pathname==="/gallery" ? "selected" : "non"}" href="/gallery">Gallery</a>
+        <a class="arimo {$page.url.pathname==="/contact" ? "selected" : "non"}" href="/contact?r=l">Contact</a>
     </nav>
     <div class="menu">
         <Menu color="#D79D40" />
     </div>
-    <a class="fancy" href="/contact?r=h">Give us a Call!</a>
+    <a class="arimo fancy" href="/contact?r=h">Give us a Call!</a>
     <OverflowMenu />
 </header>
 
@@ -78,10 +78,7 @@
     }
 
     nav a {
-        font-family: "Arimo", sans-serif;
-        font-optical-sizing: auto;
         font-weight: 600;
-        font-style: normal;
         color: #ffffff;
         font-size: 15px;
         line-height: 20px;
@@ -96,10 +93,7 @@
     }
 
     .fancy {
-        font-family: "Arimo", sans-serif;
-        font-optical-sizing: auto;
         font-weight: 600;
-        font-style: normal;
         color: #ffffff;
         font-size: 13px;
         text-decoration: none;

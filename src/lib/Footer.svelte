@@ -8,27 +8,27 @@
 <footer>
     <section class="information">
         <img src={logo} alt="LFC Logo" class="logo" />
-        <p class="inf"><span><img src={phone} width="17" height="20" alt="An icon of location pin." /></span> <a href="tel:360-784-3128" target="_blank">(360)-784-3128</a></p>
-        <p class="inf"><span><img src={mail} width="20" height="16" alt="An icon of a mail letter." /></span> <a href="mailto:thelocalfenceco@gmail.com" target="_blank">thelocalfenceco@gmail.com</a></p>
-        <p>WA LIC# LOCALFC775JP</p>
+        <p class="arimo inf"><span><img src={phone} width="17" height="20" alt="An icon of location pin." /></span> <a class="arimo" href="tel:360-784-3128" target="_blank">(360)-784-3128</a></p>
+        <p class="arimo inf"><span><img src={mail} width="20" height="16" alt="An icon of a mail letter." /></span> <a class="arimo" href="mailto:thelocalfenceco@gmail.com" target="_blank">thelocalfenceco@gmail.com</a></p>
+        <p class="arimo">WA LIC# LOCALFC775JP</p>
     </section>
     <section class="links" id="company">
-        <h3>Company</h3>
+        <h3 class="outfit">Company</h3>
         <nav>
-            <a href="/">Distributors</a>
-            <a href="/">Installer Portal</a>
-            <a href="/">Articles</a>
-            <a href="/">Blog</a>
+            <a class="outfit" href="/">Distributors</a>
+            <a class="outfit" href="/">Installer Portal</a>
+            <a class="outfit" href="/">Articles</a>
+            <a class="outfit" href="/">Blog</a>
         </nav>
     </section>
     <section class="links" id="navigate">
-        <h3>Navigate</h3>
+        <h3 class="outfit">Navigate</h3>
         <nav>
-            <a href="/">Home</a>
-            <a href="/about">About Us</a>
-            <a href="/services">Services</a>
-            <a href="/gallery">Gallery</a>
-            <a href="/contact">Contact</a>
+            <a class="outfit" href="/">Home</a>
+            <a class="outfit" href="/about">About Us</a>
+            <a class="outfit" href="/services">Services</a>
+            <a class="outfit" href="/gallery">Gallery</a>
+            <a class="outfit" href="/contact">Contact</a>
         </nav>
     </section>
     <img class="coolFence" loading="lazy" src={coolFence} alt="A nice svg of a cool fence.">
@@ -68,10 +68,7 @@
 
     p a,
     p {
-        font-family: "Arimo", sans-serif;
-        font-optical-sizing: auto;
         font-weight: normal;
-        font-style: normal;
         color: #ffffff;
         font-size: 15px;
     }
@@ -91,10 +88,7 @@
     }
 
     .links h3 {
-        font-family: "Outfit", sans-serif;
-        font-optical-sizing: auto;
         font-weight: 600;
-        font-style: normal;
         color: #ffffff;
         font-size: 25px;
     }
@@ -106,10 +100,7 @@
     }
 
     .links a {
-        font-family: "Outfit", sans-serif;
-        font-optical-sizing: auto;
         font-weight: normal;
-        font-style: normal;
         color: #ffffff;
         font-size: 15px;
         text-decoration: none;

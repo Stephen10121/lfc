@@ -7,8 +7,8 @@
 
 <div>
     <img src={icon} alt={iconAlt} width="40" height="40" />
-    <h3>{title}</h3>
-    <p>{p}</p>
+    <h3 class="arimo">{title}</h3>
+    <p class="arimo">{p}</p>
 </div>
 
 <style>
@@ -27,20 +27,14 @@
     }
 
     h3 {
-        font-family: "Arimo", sans-serif;
-        font-optical-sizing: auto;
         font-weight: 700;
-        font-style: normal;
         color: #000000;
         font-size: 21px;
         line-height: 35px;
     }
 
     p {
-        font-family: "Arimo", sans-serif;
-        font-optical-sizing: auto;
         font-weight: normal;
-        font-style: normal;
         color: #6B7280;
         font-size: 14px;
         line-height: 20px;

@@ -7,8 +7,8 @@
 </script>
 
 <section>
-    <h2>Our Services</h2>
-    <p>Discover our comprehensive fencing solutions.</p>
+    <h2 class="arimo">Our Services</h2>
+    <p class="arimo">Discover our comprehensive fencing solutions.</p>
     <div class="cards">
         <Card icon={fenceIcon} title="Residential Fencing" p="Transform your home with our high-quality residential fencing solutions." />
         <Card icon={building} title="Commercial Fencing" p="Secure your business with our durable and reliable commercial fencing." />
@@ -30,20 +30,14 @@
     }
 
     h2 {
-        font-family: "Arimo", sans-serif;
-        font-optical-sizing: auto;
         font-weight: 700;
-        font-style: normal;
         color: #000000;
         font-size: 29px;
         line-height: 35px;
     }
 
     p {
-        font-family: "Arimo", sans-serif;
-        font-optical-sizing: auto;
         font-weight: normal;
-        font-style: normal;
         color: #5b5f68;
         font-size: 15px;
         line-height: 20px;

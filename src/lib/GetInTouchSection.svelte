@@ -1,12 +1,12 @@
 <section>
     <div class="p1">
-        <h2>Get in Touch</h2>
-        <p>Fill out the form below to request a free quote or learn more about our services.</p>
+        <h2 class="arimo">Get in Touch</h2>
+        <p class="arimo">Fill out the form below to request a free quote or learn more about our services.</p>
         <form>
-            <input type="text" placeholder="Name" />
-            <input type="enail" placeholder="Email" />
-            <textarea placeholder="Message"></textarea>
-            <button>Submit</button>
+            <input class="arimo" type="text" placeholder="Name" />
+            <input class="arimo" type="enail" placeholder="Email" />
+            <textarea class="arimo" placeholder="Message"></textarea>
+            <button class="arimo">Submit</button>
         </form>
     </div>
     <div class="p2">
@@ -40,20 +40,14 @@
     }
 
     h2 {
-        font-family: "Arimo", sans-serif;
-        font-optical-sizing: auto;
         font-weight: 700;
-        font-style: normal;
         color: #000000;
         font-size: 29px;
         line-height: 35px;
     }
 
     p {
-        font-family: "Arimo", sans-serif;
-        font-optical-sizing: auto;
         font-weight: normal;
-        font-style: normal;
         color: #5b5f68;
         font-size: 15px;
         line-height: 20px;
@@ -72,10 +66,7 @@
         background-color: #ffffff;
         border: 1px solid #B8BCC0;
         border-radius: 6px;
-        font-family: "Arimo", sans-serif;
-        font-optical-sizing: auto;
         font-weight: normal;
-        font-style: normal;
         color: #6B7280;
         font-size: 13px;
         padding: 7px;
@@ -98,10 +89,7 @@
         border: none;
         background-color: #D79D40;
         color: #000000;
-        font-family: "Arimo", sans-serif;
-        font-optical-sizing: auto;
         font-weight: normal;
-        font-style: normal;
         font-size: 13px;
         padding: 5px;
         border-radius: 6px;
