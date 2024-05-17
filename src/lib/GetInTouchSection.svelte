@@ -15,7 +15,7 @@
     </div>
     <div class="p2">
         <div class="image-box">
-            <enhanced:img loading="lazy" class="image-box-image" src="../lib/assets/contactfence.jpg" alt="A very nice looking fence." />
+            <enhanced:img sizes="min(1280px, 100vw)" loading="lazy" class="image-box-image" src="../lib/assets/fence7.jpg" alt="A very nice looking fence." />
         </div>
     </div>
 </section>
@@ -106,18 +106,6 @@
         overflow: hidden;
         border-radius: 10px;
         position: relative;
-    }
-
-    .image-box-image {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50.1%, -50.1%) rotate(90deg);
-        aspect-ratio: 4/3;
-        height: 100%;
-        /* min-height: 100%; */
-        /* height: auto; */
-        /* width: 100%; */
     }
 
     @media screen and (min-width: 800px) {

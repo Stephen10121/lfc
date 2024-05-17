@@ -11,6 +11,23 @@
 
 <svelte:head>
     <link rel="canonical" href="https://thelocalfenceco.com/" />
+    <title>Home | Local Fence Co</title>
+    <meta name="title" content="Local Fence Co" />
+    <meta name="description" content="Local Fence Co is your premier fence contractor in Vancouver, WA, dedicated to transforming your property into a safe and stylish sanctuary." />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://thelocalfenceco.com/" />
+    <meta property="og:title" content="Local Fence Co" />
+    <meta property="og:description" content="Local Fence Co is your premier fence contractor in Vancouver, WA, dedicated to transforming your property into a safe and stylish sanctuary." />
+    <meta property="og:image" content="https://thelocalfenceco.com/logo.png" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://thelocalfenceco.com/" />
+    <meta property="twitter:title" content="Local Fence Co" />
+    <meta property="twitter:description" content="Local Fence Co is your premier fence contractor in Vancouver, WA, dedicated to transforming your property into a safe and stylish sanctuary." />
+    <meta property="twitter:image" content="https://thelocalfenceco.com/logo.png" />
 </svelte:head>
 
 {#if form?.success}

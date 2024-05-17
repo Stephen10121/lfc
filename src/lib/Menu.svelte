@@ -1,5 +1,18 @@
 <script lang="ts">
+    import { browser } from "$app/environment";
+    import { page } from "$app/stores";
+
     export let color = "#000000";
+
+    $: {
+        $page.url.pathname;
+        if (browser) {
+            const checkbox = document.querySelector("#menuCheckBox") as HTMLInputElement;
+            if (checkbox) {
+                checkbox.checked = false;
+            }
+        }
+    }
 </script>
 
 <form action="javascript:void(0);">

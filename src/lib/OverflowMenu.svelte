@@ -68,4 +68,11 @@
         color: #D79D40;
         box-shadow: 0 1px 0 #D79D40;
     }
+
+    @media screen and (min-width: 1000px) {
+        section {
+            opacity: 0 !important;
+            transform: translateY(-100%) !important;
+        }
+    }
 </style>
