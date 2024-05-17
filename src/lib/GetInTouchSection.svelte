@@ -1,11 +1,15 @@
+<script lang="ts">
+    import { enhance } from '$app/forms';
+</script>
+
 <section>
     <div class="p1">
         <h2 class="arimo">Get in Touch</h2>
         <p class="arimo">Fill out the form below to request a free quote or learn more about our services.</p>
-        <form>
-            <input class="arimo" type="text" placeholder="Name" />
-            <input class="arimo" type="enail" placeholder="Email" />
-            <textarea class="arimo" placeholder="Message"></textarea>
+        <form method="POST" use:enhance>
+            <input required name="name" class="arimo" type="text" placeholder="Name" />
+            <input required name="email" class="arimo" type="enail" placeholder="Email" />
+            <textarea required name="what" class="arimo" placeholder="Message"></textarea>
             <button class="arimo">Submit</button>
         </form>
     </div>

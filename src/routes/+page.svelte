@@ -1,14 +1,21 @@
 <script lang="ts">
     import GetInTouchSection from "$lib/GetInTouchSection.svelte";
+    import Toast from "$lib/Toast.svelte";
     import Section3 from "$lib/home/Section3.svelte";
     import Section4 from "$lib/home/Section4.svelte";
     import Section1 from "../lib/home/Section1.svelte";
     import Section2 from "../lib/home/Section2.svelte";
+
+    export let form;
 </script>
 
 <svelte:head>
     <link rel="canonical" href="https://thelocalfenceco.com/" />
 </svelte:head>
+
+{#if form?.success}
+    <Toast message="Form Sent Successfully" />
+{/if}
 
 <main>
     <Section1 />
