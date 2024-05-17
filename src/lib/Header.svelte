@@ -29,7 +29,17 @@
     <nav class="links">
         <a class="arimo {$page.url.pathname==="/" ? "selected" : "non"}" href="/">Home</a>
         <a class="arimo {$page.url.pathname==="/about" ? "selected" : "non"}" href="/about">About Us</a>
-        <a class="arimo {$page.url.pathname.includes("/services") ? "selected" : "non"}" href="/services">Services</a>
+        <a class="arimo {$page.url.pathname.includes("/services") ? "selected" : "non"}" href="/services">
+            Services ▾
+            <span class="nested">
+                <nav>
+                    <a class="arimo {$page.url.pathname==="/services/cedar" ? "selected" : "non"}" href="/services/cedar">Cedar Privacy Fences</a>
+                    <a class="arimo {$page.url.pathname==="/services/chain-link" ? "selected" : "non"}" href="/services/chain-link">Chain-link Fences</a>
+                    <a class="arimo {$page.url.pathname==="/services/vinyl" ? "selected" : "non"}" href="/services/vinyl">Vinyl Fence/PVC Rail Fences</a>
+                    <a class="arimo {$page.url.pathname==="/services/custom" ? "selected" : "non"}" href="/services/custom">Custom Design Fences</a>
+                </nav>
+            </span>
+        </a>
         <a class="arimo {$page.url.pathname==="/gallery" ? "selected" : "non"}" href="/gallery">Gallery</a>
         <a class="arimo {$page.url.pathname==="/contact" ? "selected" : "non"}" href="/contact?r=l">Contact</a>
     </nav>
@@ -84,12 +94,38 @@
         line-height: 20px;
         box-shadow: none;
         text-decoration: none;
+        position: relative;
         transition: box-shadow 0.1s linear, color 0.1s linear;
     }
 
     a.selected {
         color: #D79D40;
         box-shadow: 0 1px 0 #D79D40;
+    }
+
+    a:hover .nested{
+        display: block;
+    }
+
+    .nested {
+        display: none;
+        position: absolute;
+        left: 50%;
+        bottom: 0;
+        transform: translate(-50%, 100%);
+        width: fit-content;
+    }
+
+    .nested nav {
+        display: flex;
+        flex-direction: column;
+        text-wrap: nowrap;
+        align-items: flex-start;
+        gap: 10px;
+        background-color: rgba(0, 0, 0, 0.589);
+        padding: 10px;
+        border-radius: 5px;
+        margin-top: 10px;
     }
 
     .fancy {

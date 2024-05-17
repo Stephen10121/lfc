@@ -9,6 +9,12 @@
             <a class="outfit {$page.url.pathname==="/" ? "selected" : "non"}" href="/">Home</a>
             <a class="outfit {$page.url.pathname==="/about" ? "selected" : "non"}" href="/about">About Us</a>
             <a class="outfit {$page.url.pathname.includes("/services") ? "selected" : "non"}" href="/services">Services</a>
+            <nav class="nested">
+                <a class="arimo {$page.url.pathname==="/services/cedar" ? "selected" : "non"}" href="/services/cedar">Cedar Privacy Fences</a>
+                <a class="arimo {$page.url.pathname==="/services/chain-link" ? "selected" : "non"}" href="/services/chain-link">Chain-link Fences</a>
+                <a class="arimo {$page.url.pathname==="/services/vinyl" ? "selected" : "non"}" href="/services/vinyl">Vinyl Fence/PVC Rail Fences</a>
+                <a class="arimo {$page.url.pathname==="/services/custom" ? "selected" : "non"}" href="/services/custom">Custom Design Fences</a>
+            </nav>
             <a class="outfit {$page.url.pathname==="/gallery" ? "selected" : "non"}" href="/gallery">Gallery</a>
             <a class="outfit {$page.url.pathname==="/contact" ? "selected" : "non"}" href="/contact">Contact</a>
         </nav>
@@ -22,7 +28,7 @@
         background-color: #000000;
         top: 0;
         left: 0;
-        height: 50vh;
+        height: 80vh;
         width: 100%;
         z-index: -1;
         opacity: 0;
@@ -41,6 +47,10 @@
         flex-direction: column;
         gap: 20px;
         margin-top: 120px;
+    }
+
+    .nested {
+        margin-left: 20px;
     }
 
     .links h3 {
