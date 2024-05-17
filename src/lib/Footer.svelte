@@ -15,10 +15,7 @@
     <section class="links" id="company">
         <h3 class="outfit">Company</h3>
         <nav>
-            <a class="outfit" href="/">Distributors</a>
-            <a class="outfit" href="/">Installer Portal</a>
-            <a class="outfit" href="/">Articles</a>
-            <a class="outfit" href="/">Blog</a>
+            <a class="outfit" href="/">Admin Portal</a>
         </nav>
     </section>
     <section class="links" id="navigate">

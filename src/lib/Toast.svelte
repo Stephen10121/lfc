@@ -1,8 +1,10 @@
 <script lang="ts">
     export let message: string;
+
+    export let borderColor = "#D79D40";
 </script>
 
-<div>
+<div style="--border-color: {borderColor}">
     <p class="outfit">{message}</p>
 </div>
 
@@ -10,7 +12,7 @@
     div {
         position: fixed;
         background-color: #ffffff;
-        border: 4px solid #D79D40;;
+        border: 4px solid var(--border-color);
         border-radius: 5px;
         bottom: 10px;
         right: 10px;

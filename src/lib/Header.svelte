@@ -36,7 +36,7 @@
     <div class="menu">
         <Menu color="#D79D40" />
     </div>
-    <a class="arimo fancy" href="/contact?r=h">Give us a Call!</a>
+    <a class="arimo fancy" href="tel:360-784-3128" target="_blank">Give us a Call!</a>
     <OverflowMenu />
 </header>
 

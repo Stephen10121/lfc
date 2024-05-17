@@ -15,6 +15,8 @@
 
 {#if form?.success}
     <Toast message="Form Sent Successfully" />
+{:else if form && !form.success}
+    <Toast borderColor="#af3636" message="Failed to send form." />
 {/if}
 
 <main>
