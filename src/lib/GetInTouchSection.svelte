@@ -4,7 +4,7 @@
     export let whereFrom: string;
 </script>
 
-<section>
+<section id="contact">
     <div class="p1">
         <h2 class="arimo">Get in Touch</h2>
         <p class="arimo">Fill out the form below to request a free quote or learn more about our services.</p>

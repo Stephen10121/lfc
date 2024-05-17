@@ -2,9 +2,9 @@
     <enhanced:img loading="lazy" src="../assets/newfence.jpg" class="bg-image" alt="Background for the home page." sizes="min(1280px, 100vw)" />
     <div class="cover" />
     <div class="text">
-        <h2 class="arimo">Elevate Your Outdoor Space with Expert Fence Building</h2>
-        <p class="arimo">Transform your property with our top-quality fencing solutions!</p>
-        <a class="arimo" href="/contact?r=s1#contact">Get a Free Quote</a>
+        <h2 class="arimo">Contact Us</h2>
+        <a class="arimo" href="tel:360-784-3128" target="_blank">(360)-784-3128</a>
+        <a class="arimo" href="mailto:thelocalfenceco@gmail.com" target="_blank">thelocalfenceco@gmail.com</a>
     </div>
 </section>
 
@@ -32,24 +32,11 @@
         line-height: 35px;
     }
 
-    p {
+    a {
         font-weight: normal;
         color: #ffffff;
         font-size: 15px;
         line-height: 20px;
-    }
-
-    a {
-        font-weight: 600;
-        color: #000000;
-        font-size: 13px;
-        text-decoration: none;
-        background-color: #D79D40;
-        display: block;
-        width: fit-content;
-        padding: 6px 12px;
-        border-radius: 6px;
-        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     }
 
     .bg-image {
@@ -97,12 +84,8 @@
             font-size: clamp(2.1875rem, -1.4375rem + 7.25vw, 4rem);
         }
 
-        p {
-            font-size: clamp(0.9375rem, 0.3125rem + 1.25vw, 1.25rem);
-        }
-
         a {
-            padding: 9px 17px;
+            font-size: clamp(0.9375rem, 0.3125rem + 1.25vw, 1.25rem);
         }
     }
 </style>
