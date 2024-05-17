@@ -1,9 +1,6 @@
 <script lang="ts">
     import GetInTouchSection from "$lib/GetInTouchSection.svelte";
     import Toast from "$lib/Toast.svelte";
-    import AboutSection1 from "$lib/about/AboutSection1.svelte";
-    import AboutSection2 from "$lib/about/AboutSection2.svelte";
-    import AboutSection3 from "$lib/about/AboutSection3.svelte";
     import ContactSection1 from "$lib/contact/ContactSection1.svelte";
 
     export let form;
