@@ -9,7 +9,7 @@
 </script>
 
 <svelte:head>
-    <link rel="canonical" href="https://thelocalfenceco.com/about" />
+    <link rel="canonical" href="https://thelocalfenceco.com/services/chain-link" />
     <title>Chain-link Fences | Local Fence Co</title>
     <meta name="title" content="Chain-link Fences | Local Fence Co" />
 	<meta name="description" content="Chain link fences are woven from coated mesh wire, forming a diamond pattern. They provide security while maintaining visibility." />

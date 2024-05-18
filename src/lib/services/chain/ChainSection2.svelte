@@ -5,7 +5,7 @@
         </div>
     </div>
     <div class="p1">
-        <h2 class="arimo">What's a Chain-link Fence?</h2>
+        <h1 class="arimo">What's a Chain-link Fence?</h1>
         <p class="arimo">A chain-link fence is a woven fence made from galvanized or coated steel wire. The wires run vertically and are bent into a zigzag pattern, creating the characteristic diamond pattern seen in these fences. This design ensures both robustness and transparency, allowing for secure enclosures while maintaining visibility. Chain link fencing is commonly used for both residential and commercial projects due to its affordability, versatility, and ease of customization. It provides perimeter security, keeps children and pets safe, and meets building code requirements for swimming pools. In commercial applications, chain link fences offer a practical and easily installed solution for securing lots and customizing configurations based on specific needs.</p>
     </div>
 </section>
@@ -34,7 +34,7 @@
         justify-content: center;
     }
 
-    h2 {
+    h1 {
         font-weight: 700;
         color: #000000;
         font-size: 29px;

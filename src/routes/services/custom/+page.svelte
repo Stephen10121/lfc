@@ -9,7 +9,7 @@
 </script>
 
 <svelte:head>
-    <link rel="canonical" href="https://thelocalfenceco.com/about" />
+    <link rel="canonical" href="https://thelocalfenceco.com/services/custom" />
     <title>Custom Design Fences | Local Fence Co</title>
     <meta name="title" content="Custom Design Fences | Local Fence Co" />
 	<meta name="description" content="Custom fences are tailored to match your property aesthetics, lasting for decades and enhancing property value." />

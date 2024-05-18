@@ -2,7 +2,7 @@
     <enhanced:img loading="lazy" src="../assets/newfence.jpg" class="bg-image" alt="Background for the home page." sizes="min(1280px, 100vw)" />
     <div class="cover" />
     <div class="text">
-        <h2 class="arimo">Contact Us</h2>
+        <h1 class="arimo">Contact Us</h1>
         <a class="arimo" href="tel:360-784-3128" target="_blank">(360)-784-3128</a>
         <a class="arimo" href="mailto:thelocalfenceco@gmail.com" target="_blank">thelocalfenceco@gmail.com</a>
     </div>
@@ -25,7 +25,7 @@
         width: 100%;
     }
 
-    h2 {
+    h1 {
         font-weight: 600;
         color: #ffffff;
         font-size: 29px;
@@ -78,7 +78,7 @@
             gap: 30px;
         }
 
-        h2 {
+        h1 {
             text-align: center;
             line-height: clamp(3.125rem, 0rem + 6.25vw, 4.6875rem);
             font-size: clamp(2.1875rem, -1.4375rem + 7.25vw, 4rem);

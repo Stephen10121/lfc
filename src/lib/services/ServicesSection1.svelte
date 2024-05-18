@@ -2,7 +2,7 @@
     <enhanced:img loading="lazy" src="../assets/newfence.jpg" class="bg-image" alt="Background for the home page." sizes="min(1280px, 100vw)" />
     <div class="cover" />
     <div class="text">
-        <h2 class="arimo">Services</h2>
+        <h1 class="arimo">Services</h1>
         <p class="arimo">Tailored Solutions, Unmatched Results!</p>
     </div>
 </section>
@@ -24,7 +24,7 @@
         width: 100%;
     }
 
-    h2 {
+    h1 {
         font-weight: 600;
         color: #ffffff;
         font-size: 29px;
@@ -77,7 +77,7 @@
             gap: 30px;
         }
 
-        h2 {
+        h1 {
             text-align: center;
             line-height: clamp(3.125rem, 0rem + 6.25vw, 4.6875rem);
             font-size: clamp(2.1875rem, -1.4375rem + 7.25vw, 4rem);

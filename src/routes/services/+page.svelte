@@ -11,7 +11,7 @@
 </script>
 
 <svelte:head>
-    <link rel="canonical" href="https://thelocalfenceco.com/about" />
+    <link rel="canonical" href="https://thelocalfenceco.com/services" />
     <title>Services | Local Fence Co</title>
     <meta name="title" content="Services | Local Fence Co" />
 	<meta name="description" content="Our cedar fences provide privacy. Chain-link fences offer durability. Vinyl/PVC fences combine style and strength. Custom designs cater to your unique needs." />

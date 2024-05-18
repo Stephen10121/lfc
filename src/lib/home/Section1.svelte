@@ -2,7 +2,7 @@
     <enhanced:img loading="lazy" src="../assets/newfence.jpg" class="bg-image" alt="Background for the home page." sizes="min(1280px, 100vw)" />
     <div class="cover" />
     <div class="text">
-        <h2 class="arimo">Elevate Your Outdoor Space with Expert Fence Building</h2>
+        <h1 class="arimo">Elevate Your Outdoor Space with Expert Fence Building</h1>
         <p class="arimo">Transform your property with our top-quality fencing solutions!</p>
         <a class="arimo" href="/contact?r=s1#contact">Get a Free Quote</a>
     </div>
@@ -25,7 +25,7 @@
         width: 100%;
     }
 
-    h2 {
+    h1 {
         font-weight: 600;
         color: #ffffff;
         font-size: 29px;
@@ -91,7 +91,7 @@
             gap: 30px;
         }
 
-        h2 {
+        h1 {
             text-align: center;
             line-height: clamp(3.125rem, 0rem + 6.25vw, 4.6875rem);
             font-size: clamp(2.1875rem, -1.4375rem + 7.25vw, 4rem);

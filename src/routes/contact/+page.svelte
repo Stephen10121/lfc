@@ -7,7 +7,7 @@
 </script>
 
 <svelte:head>
-    <link rel="canonical" href="https://thelocalfenceco.com/about" />
+    <link rel="canonical" href="https://thelocalfenceco.com/contact" />
     <title>Contact Us | Local Fence Co</title>
     <meta name="title" content="Contact Us | Local Fence Co" />
 	<meta name="description" content="A convenient way to reach out for inquiries, quotes, and appointments. We’re committed to delivering quality service and ensuring customer satisfaction." />

@@ -9,7 +9,7 @@
 </script>
 
 <svelte:head>
-    <link rel="canonical" href="https://thelocalfenceco.com/about" />
+    <link rel="canonical" href="https://thelocalfenceco.com/services/vinyl" />
     <title>Vinyl Fence/PVC Rail Fences | Local Fence Co</title>
     <meta name="title" content="Vinyl Fence/PVC Rail Fences | Local Fence Co" />
 	<meta name="description" content="Vinyl fences are durable, low-maintenance alternatives to wood. They won't warp, rot, or blister, and they're non-toxic." />

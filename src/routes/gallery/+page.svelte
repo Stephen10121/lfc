@@ -9,7 +9,7 @@
 </script>
 
 <svelte:head>
-    <link rel="canonical" href="https://thelocalfenceco.com/about" />
+    <link rel="canonical" href="https://thelocalfenceco.com/gallery" />
     <title>Gallery | Local Fence Co</title>
     <meta name="title" content="Gallery | Local Fence Co" />
 	<meta name="description" content="The Gallery page showcases our stunning fence installations. Explore various styles, materials, and craftsmanship." />

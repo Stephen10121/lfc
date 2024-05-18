@@ -5,10 +5,10 @@
 <section>
     <div class="text">
         {#if $page.status === 404}
-            <h2 class="arimo">Where's that?</h2>
+            <h1 class="arimo">Where's that?</h1>
             <p class="arimo">I'm pretty sure {$page.url.pathname} doesn't exist. 🤔 Perhaps <span><a class="arimo" href="/contact">/contact</a></span>?</p>
         {:else}
-            <h2 class="arimo">{$page.status}: {$page.error?.message}</h2>
+            <h1 class="arimo">{$page.status}: {$page.error?.message}</h1>
             <p class="arimo">I believe something went wrong.</p>
         {/if}
     </div>
@@ -47,7 +47,7 @@
         width: 100%;
     }
 
-    h2 {
+    h1 {
         font-weight: 600;
         color: #000000;
         font-size: 29px;
@@ -72,7 +72,7 @@
             gap: 30px;
         }
 
-        h2 {
+        h1 {
             text-align: center;
             line-height: clamp(3.125rem, 0rem + 6.25vw, 4.6875rem);
             font-size: clamp(2.1875rem, -1.4375rem + 7.25vw, 4rem);
