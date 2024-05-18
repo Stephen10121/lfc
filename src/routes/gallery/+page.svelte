@@ -16,14 +16,14 @@
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://thelocalfenceco.com/" />
+    <meta property="og:url" content="https://thelocalfenceco.com/gallery" />
     <meta property="og:title" content="Gallery | Local Fence Co" />
     <meta property="og:description" content="The Gallery page showcases our stunning fence installations. Explore various styles, materials, and craftsmanship." />
     <meta property="og:image" content="https://thelocalfenceco.com/logo.png" />
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image" />
-    <meta property="twitter:url" content="https://thelocalfenceco.com/" />
+    <meta property="twitter:url" content="https://thelocalfenceco.com/gallery" />
     <meta property="twitter:title" content="Gallery | Local Fence Co" />
     <meta property="twitter:description" content="The Gallery page showcases our stunning fence installations. Explore various styles, materials, and craftsmanship." />
     <meta property="twitter:image" content="https://thelocalfenceco.com/logo.png" />

@@ -16,14 +16,14 @@
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://thelocalfenceco.com/" />
+    <meta property="og:url" content="https://thelocalfenceco.com/services/chain-link" />
     <meta property="og:title" content="Chain-link Fences | Local Fence Co" />
     <meta property="og:description" content="Chain link fences are woven from coated mesh wire, forming a diamond pattern. They provide security while maintaining visibility." />
     <meta property="og:image" content="https://thelocalfenceco.com/logo.png" />
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image" />
-    <meta property="twitter:url" content="https://thelocalfenceco.com/" />
+    <meta property="twitter:url" content="https://thelocalfenceco.com/services/chain-link" />
     <meta property="twitter:title" content="Chain-link Fences | Local Fence Co" />
     <meta property="twitter:description" content="Chain link fences are woven from coated mesh wire, forming a diamond pattern. They provide security while maintaining visibility." />
     <meta property="twitter:image" content="https://thelocalfenceco.com/logo.png" />
