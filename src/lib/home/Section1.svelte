@@ -4,7 +4,7 @@
     <div class="text">
         <h1 class="arimo">Elevate Your Outdoor Space with Expert Fence Building</h1>
         <p class="arimo">Transform your property with our top-quality fencing solutions!</p>
-        <a class="arimo" href="/contact?r=s1#contact" rel="nofollow">Get a Free Quote</a>
+        <a class="arimo" href="/contact?r=s1#contact">Get a Free Quote</a>
     </div>
 </section>
 
