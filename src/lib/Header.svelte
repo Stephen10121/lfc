@@ -129,7 +129,7 @@
 
     .fancy {
         font-weight: 600;
-        color: #ffffff;
+        color: #000000;
         font-size: 13px;
         text-decoration: none;
         background-color: #D79D40;

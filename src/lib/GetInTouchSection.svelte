@@ -18,7 +18,7 @@
     </div>
     <div class="p2">
         <div class="image-box">
-            <enhanced:img sizes="min(1280px, 100vw)" loading="lazy" class="image-box-image" src="../lib/assets/fence7.jpg" alt="A very nice looking fence." />
+            <enhanced:img sizes="min(1280px, 100vw)" loading="lazy" class="image-box-image" src="../lib/assets/fence7.webp" alt="A very nice looking fence." />
         </div>
     </div>
 </section>

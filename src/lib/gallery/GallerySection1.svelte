@@ -1,5 +1,5 @@
 <section>
-    <enhanced:img loading="lazy" src="../assets/newfence.jpg" class="bg-image" alt="Background for the home page." sizes="min(1280px, 100vw)" />
+    <enhanced:img loading="lazy" role="presentation" src="../assets/fence13.webp" decoding="async" class="bg-image" sizes="(min-width:1920px) 1280px, (min-width: 1080px) 940px, (min-width:250px) 300px" />
     <div class="cover" />
     <div class="text">
         <h1 class="arimo">Gallery</h1>
