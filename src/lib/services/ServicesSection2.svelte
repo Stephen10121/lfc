@@ -1,7 +1,7 @@
 <section>
     <div class="p2">
         <div class="image-box">
-            <enhanced:img sizes="min(1280px, 100vw)" loading="lazy" class="image-box-image" src="../assets/fence2.webp" alt="A very nice looking fence." />
+            <enhanced:img sizes="min(700px, 100vw)" loading="lazy" class="image-box-image" src="../assets/fence2.webp" alt="A very nice looking fence." />
         </div>
     </div>
     <div class="p1">
