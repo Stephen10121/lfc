@@ -10,21 +10,21 @@
 
 <svelte:head>
     <link rel="canonical" href="https://thelocalfenceco.com/services/cedar" />
-    <title>Cedar Fences | Local Fence Co</title>
-    <meta name="title" content="Cedar Fences | Local Fence Co" />
+    <title>Cedar Fences - Local Fence Co</title>
+    <meta name="title" content="Cedar Fences - Local Fence Co" />
 	<meta name="description" content="Cedar fences are visually attractive and durable. Enjoy their esthetic appeal and low maintenance for years to come!" />
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://thelocalfenceco.com/services/cedar" />
-    <meta property="og:title" content="Cedar Fences | Local Fence Co" />
+    <meta property="og:title" content="Cedar Fences - Local Fence Co" />
     <meta property="og:description" content="Cedar fences are visually attractive and durable. Enjoy their esthetic appeal and low maintenance for years to come!" />
     <meta property="og:image" content="https://thelocalfenceco.com/logo.png" />
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image" />
     <meta property="twitter:url" content="https://thelocalfenceco.com/services/cedar" />
-    <meta property="twitter:title" content="Cedar Fences | Local Fence Co" />
+    <meta property="twitter:title" content="Cedar Fences - Local Fence Co" />
     <meta property="twitter:description" content="Cedar fences are visually attractive and durable. Enjoy their esthetic appeal and low maintenance for years to come!" />
     <meta property="twitter:image" content="https://thelocalfenceco.com/logo.png" />
 </svelte:head>
