@@ -8,11 +8,9 @@ export default defineConfig({
 		sveltekit()
 	],
 	server: {
-		port: 7401,
-		strictPort: false
+		port: 7401
 	},
 	preview: {
-		port: 7401,
-		strictPort: false
+		port: 7401
 	}
 });
