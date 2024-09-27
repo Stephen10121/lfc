@@ -9,7 +9,8 @@
 		"start": "HOST=127.0.0.1 PORT=7401 node build",
 		"preview": "vite preview --host",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
-		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch"
+		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
+		"production": "node build"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-node": "^5.0.1",
