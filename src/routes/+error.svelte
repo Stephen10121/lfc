@@ -6,7 +6,7 @@
     <div class="text">
         {#if $page.status === 404}
             <h1 class="arimo">Where's that?</h1>
-            <p class="arimo">I'm pretty sure {$page.url.pathname} doesn't exist. 🤔 Perhaps <span><a class="arimo" href="/contact">/contact</a></span>?</p>
+            <p class="arimo">I'm pretty sure {$page.url.pathname} doesn't exist! 🤔 Perhaps <span><a class="arimo" href="/contact">/contact</a></span>?</p>
         {:else}
             <h1 class="arimo">{$page.status}: {$page.error?.message}</h1>
             <p class="arimo">I believe something went wrong.</p>
