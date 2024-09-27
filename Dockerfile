@@ -1,5 +1,10 @@
-FROM node:18-alpine AS builder
+FROM node:alpine3.20 AS builder
 WORKDIR /app
+
+# Add necessary packages for Sharp to work
+RUN apk add --update-cache --repository http://dl-3.alpinelinux.org/alpine/edge/testing \
+  vips-dev fftw-dev gcc g++ make libc6-compat
+
 COPY package*.json .
 
 RUN npm ci
@@ -7,7 +12,7 @@ COPY . .
 RUN npm run build
 RUN npm prune --production
 
-FROM node:18-alpine
+FROM node:alpine3.20
 WORKDIR /app
 COPY --from=builder /app/build build/
 COPY --from=builder /app/node_modules node_modules/

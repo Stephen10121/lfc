@@ -1,5 +1,5 @@
 <section>
-    <enhanced:img alt="Background fence for the website." loading="lazy" role="presentation" src="../assets/fence13.webp" decoding="async" class="bg-image" sizes="(min-width:1920px) 1280px, (min-width: 1080px) 940px, (min-width:250px) 300px" />
+    <enhanced:img alt="Background fence for the website." loading="lazy" role="presentation" src="../assets/fence13.jpg" decoding="async" class="bg-image" sizes="(min-width:1920px) 1280px, (min-width: 1080px) 940px, (min-width:250px) 300px" />
     <div class="cover" />
     <div class="text">
         <h1 class="arimo">Services</h1>

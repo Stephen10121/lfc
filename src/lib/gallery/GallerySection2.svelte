@@ -5,40 +5,40 @@
 <section>
     <div class="cards">
         <ServicesCard>
-            <enhanced:img sizes="min(700px, 100vw)" loading="lazy" class="image-box-image" src="../assets/fence2.webp" alt="A very nice looking fence." />
+            <enhanced:img sizes="min(700px, 100vw)" loading="lazy" class="image-box-image" src="../assets/fence2.jpg" alt="A very nice looking fence." />
         </ServicesCard>
         <ServicesCard>
-            <enhanced:img sizes="min(700px, 100vw)" loading="lazy" class="image-box-image" src="../assets/fence7.webp" alt="A very nice looking fence." />
+            <enhanced:img sizes="min(700px, 100vw)" loading="lazy" class="image-box-image" src="../assets/fence7.jpg" alt="A very nice looking fence." />
         </ServicesCard>
         <ServicesCard>
-            <enhanced:img sizes="min(700px, 100vw)" loading="lazy" class="image-box-image" src="../assets/fence3.webp" alt="A very nice looking fence." />
+            <enhanced:img sizes="min(700px, 100vw)" loading="lazy" class="image-box-image" src="../assets/fence3.jpg" alt="A very nice looking fence." />
         </ServicesCard>
         <ServicesCard>
-            <enhanced:img sizes="min(700px, 100vw)" loading="lazy" class="image-box-image" src="../assets/fence4.webp" alt="A very nice looking fence." />
+            <enhanced:img sizes="min(700px, 100vw)" loading="lazy" class="image-box-image" src="../assets/fence4.jpg" alt="A very nice looking fence." />
         </ServicesCard>
         <ServicesCard>
-            <enhanced:img sizes="min(700px, 100vw)" loading="lazy" class="image-box-image" src="../assets/fence5.webp" alt="A very nice looking fence." />
+            <enhanced:img sizes="min(700px, 100vw)" loading="lazy" class="image-box-image" src="../assets/fence5.jpg" alt="A very nice looking fence." />
         </ServicesCard>
         <ServicesCard>
-            <enhanced:img sizes="min(700px, 100vw)" loading="lazy" class="image-box-image" src="../assets/fence6.webp" alt="A very nice looking fence." />
+            <enhanced:img sizes="min(700px, 100vw)" loading="lazy" class="image-box-image" src="../assets/fence6.jpg" alt="A very nice looking fence." />
         </ServicesCard>
         <ServicesCard>
-            <enhanced:img sizes="min(700px, 100vw)" loading="lazy" class="image-box-image" src="../assets/white.webp" alt="A very nice looking fence." />
+            <enhanced:img sizes="min(700px, 100vw)" loading="lazy" class="image-box-image" src="../assets/white.jpg" alt="A very nice looking fence." />
         </ServicesCard>
         <ServicesCard>
-            <enhanced:img sizes="min(700px, 100vw)" loading="lazy" class="image-box-image" src="../assets/fence9.webp" alt="A very nice looking fence." />
+            <enhanced:img sizes="min(700px, 100vw)" loading="lazy" class="image-box-image" src="../assets/fence9.jpg" alt="A very nice looking fence." />
         </ServicesCard>
         <ServicesCard>
-            <enhanced:img sizes="min(700px, 100vw)" loading="lazy" class="image-box-image" src="../assets/fence8.webp" alt="A very nice looking fence." />
+            <enhanced:img sizes="min(700px, 100vw)" loading="lazy" class="image-box-image" src="../assets/fence8.jpg" alt="A very nice looking fence." />
         </ServicesCard>
         <ServicesCard>
-            <enhanced:img sizes="min(700px, 100vw)" loading="lazy" class="image-box-image" src="../assets/fence10.webp" alt="A very nice looking fence." />
+            <enhanced:img sizes="min(700px, 100vw)" loading="lazy" class="image-box-image" src="../assets/fence10.jpg" alt="A very nice looking fence." />
         </ServicesCard>
         <ServicesCard>
-            <enhanced:img sizes="min(700px, 100vw)" loading="lazy" class="image-box-image" src="../assets/fence11.webp" alt="A very nice looking fence." />
+            <enhanced:img sizes="min(700px, 100vw)" loading="lazy" class="image-box-image" src="../assets/fence11.jpg" alt="A very nice looking fence." />
         </ServicesCard>
         <ServicesCard>
-            <enhanced:img sizes="min(700px, 100vw)" loading="lazy" class="image-box-image" src="../assets/fence12.webp" alt="A very nice looking fence." />
+            <enhanced:img sizes="min(700px, 100vw)" loading="lazy" class="image-box-image" src="../assets/fence12.jpg" alt="A very nice looking fence." />
         </ServicesCard>
     </div>
 </section>
