@@ -4,7 +4,13 @@
 
     import { page } from "$app/stores";
     import OverflowMenu from "./OverflowMenu.svelte";
+    import { onMount } from "svelte";
     let cl = "show";
+    let shownested = false;
+
+    onMount(() => {
+        shownested = true;
+    });
 
     let prevScrollPos = 0;
     function scrolling(event: any) {
@@ -31,14 +37,16 @@
         <a class="arimo {$page.url.pathname==="/about" ? "selected" : "non"}" href="/about">About Us</a>
         <a class="arimo {$page.url.pathname.includes("/services") ? "selected" : "non"}" href="/services">
             Services ▾
-            <span class="nested" style="display: none;">
-                <nav>
-                    <a class="arimo {$page.url.pathname==="/services/cedar" ? "selected" : "non"}" href="/services/cedar">Cedar Privacy Fences</a>
-                    <a class="arimo {$page.url.pathname==="/services/chain-link" ? "selected" : "non"}" href="/services/chain-link">Chain-link Fences</a>
-                    <a class="arimo {$page.url.pathname==="/services/vinyl" ? "selected" : "non"}" href="/services/vinyl">Vinyl Fence/PVC Rail Fences</a>
-                    <a class="arimo {$page.url.pathname==="/services/custom" ? "selected" : "non"}" href="/services/custom">Custom Design Fences</a>
-                </nav>
-            </span>
+            {#if shownested}
+                <span class="nested">
+                    <nav>
+                        <a class="arimo {$page.url.pathname==="/services/cedar" ? "selected" : "non"}" href="/services/cedar">Cedar Privacy Fences</a>
+                        <a class="arimo {$page.url.pathname==="/services/chain-link" ? "selected" : "non"}" href="/services/chain-link">Chain-link Fences</a>
+                        <a class="arimo {$page.url.pathname==="/services/vinyl" ? "selected" : "non"}" href="/services/vinyl">Vinyl Fence/PVC Rail Fences</a>
+                        <a class="arimo {$page.url.pathname==="/services/custom" ? "selected" : "non"}" href="/services/custom">Custom Design Fences</a>
+                    </nav>
+                </span>
+            {/if}
         </a>
         <a class="arimo {$page.url.pathname==="/gallery" ? "selected" : "non"}" href="/gallery">Gallery</a>
         <a class="arimo {$page.url.pathname==="/contact" ? "selected" : "non"}" href="/contact?r=l">Contact</a>
@@ -108,6 +116,7 @@
     }
 
     .nested {
+        display: none;
         position: absolute;
         left: 50%;
         bottom: 0;
