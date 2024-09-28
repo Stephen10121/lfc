@@ -5,9 +5,9 @@ WORKDIR /app
 # RUN apk add --update-cache --repository http://dl-3.alpinelinux.org/alpine/edge/testing vips-dev fftw-dev gcc g++ make libc6-compat
 
 COPY package*.json .
-RUN ls
-ADD .svelte-kit /.svelte-kit
-ADD build /build
+# RUN ls
+# ADD .svelte-kit /.svelte-kit
+# ADD build /build
 RUN npm ci
 COPY . .
 # RUN node --max_old_space_size=12000 && npm run build
