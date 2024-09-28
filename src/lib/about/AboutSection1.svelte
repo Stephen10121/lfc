@@ -3,7 +3,7 @@
     <div class="cover" />
     <div class="text">
         <h1 class="arimo">About Us</h1>
-        <p class="arimo">Empowering Excellence, Every Step of the Way!</p>
+        <p class="arimo">Empowering Excellence, Every Step of the Way.</p>
     </div>
 </section>
 
