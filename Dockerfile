@@ -10,14 +10,14 @@ COPY package*.json .
 # ADD build /build
 RUN npm ci
 COPY . .
-# RUN node --max_old_space_size=12000 && npm run build
+RUN node --max_old_space_size=12000 && npm run build
 # RUN npm run build
 RUN npm prune --production
 
 FROM node:alpine3.20
 WORKDIR /app
 COPY --from=builder /app/build build/
-COPY --from=builder /app/.svelte-kit .svelte-kit/
+# COPY --from=builder /app/.svelte-kit .svelte-kit/
 COPY --from=builder /app/node_modules node_modules/
 COPY package.json .
 EXPOSE 7401
