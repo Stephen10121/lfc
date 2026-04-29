@@ -4,7 +4,7 @@
 
 <section class="bg-surface-container-lowest py-20">
     <div class="max-w-360 mx-auto px-6 lg:px-12">
-        <div class="flex flex-col md:flex-row gap-12 items-end mb-12">
+        <div class="flex flex-col md:flex-row gap-12 items-center sm:items-end mb-12">
             <div class="md:w-1/2">
                 <h2 class="text-[48px] leading-[1.2] tracking-[-0.02em] font-bold text-headline-xl text-on-surface mb-4">The <span class="text-primary">Gold</span> Standard</h2>
                 <p class="text-12 text-on-surface-variant">We don't just build fences; we build landmarks of quality in our community. Every project is handled with surgical precision.</p>
