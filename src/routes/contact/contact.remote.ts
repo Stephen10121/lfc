@@ -71,7 +71,7 @@ export const contactForm = form(ContactFormSchema, async (formData, issues) => {
     try {
         await resend.emails.send({
             from: `${formData.name} <contact@mail.thelocalfenceco.com>`,
-            to: [ 'stephengrzn@gmail.com' ],
+            to: [ 'thelocalfenceco@gmail.com' ],
             subject: `Website Contact Form from ${formData.name}`,
             replyTo: formData.email,
             html: `<h1>From: ${formData.email}</h1><h2>Name: ${formData.name}</h2><h2>Phone: ${formData.phone}</h2><h2>Project Location: ${formData.location}</h2><ul><p>Fence type interested in:</p>${formData.fenceInterestedIn.map((interest) => `<li>${interest}</li>`).join("")}</ul><p>Approximate footage: ${formData.approximateFootage}</p><p>Project Description: ${formData.message}</p>`,
