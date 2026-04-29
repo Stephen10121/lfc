@@ -39,7 +39,7 @@
 
                 <h3 class="text-[24px] leading-[1.3] font-semibold text-white mb-2">Vinyl Systems</h3>
                 <p class="text-zinc-300 mb-6">Durable, weather-resistant solutions that never need painting.</p>
-                <a href="/services/vinyl" class="w-fit border border-white text-white text-[12px] leading-[1.3] px-4 py-2 hover:bg-white hover:text-zinc-900 transition-colors uppercase font-bold">Learn More</a>
+                <a href="/services/vinyl" class="w-fit border border-white text-white text-[12px] leading-[1.3] px-4 py-2 hover:bg-white hover:text-zinc-900 transition-colors uppercase font-bold">Explore Vinyl</a>
             </div>
         </div>
 
