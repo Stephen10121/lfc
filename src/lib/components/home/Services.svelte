@@ -14,7 +14,7 @@
 
     <div class="grid grid-cols-1 md:grid-cols-12 gap-6">
         <!-- Wood Fencing -->
-        <div class="md:col-span-8 group relative overflow-hidden bg-white border border-outline-variant shadow-sm aspect-video md:aspect-auto">
+        <div class="md:col-span-8 group relative overflow-hidden bg-white border border-outline-variant shadow-sm md:aspect-auto min-h-100">
             <img alt="Wood fence" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" src={woodfence}/>
             <div class="absolute inset-0 bg-linear-to-t from-black/80 via-black/50 to-transparent p-12 flex flex-col justify-end">
                 <div class="flex items-center gap-2 mb-2">
@@ -29,7 +29,7 @@
         </div>
 
         <!-- Vinyl Fencing -->
-        <div class="md:col-span-4 group relative overflow-hidden bg-white border border-outline-variant shadow-sm h-100">
+        <div class="md:col-span-4 group relative overflow-hidden bg-white border border-outline-variant shadow-sm min-h-100">
             <img alt="Vinyl fence" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" src={vinylfence}/>
             <div class="absolute inset-0 bg-linear-to-t from-black/80 via-black/50 to-transparent p-8 flex flex-col justify-end">
                 <div class="flex items-center gap-2 mb-2">
