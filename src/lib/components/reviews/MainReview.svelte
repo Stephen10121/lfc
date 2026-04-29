@@ -3,7 +3,7 @@
 </script>
 
 <section class="py-xl bg-white">
-    <div class="max-w-7xl mx-auto px-8">
+    <div class="max-w-7xl mx-auto px-3 sm:px-8">
         <div class="grid grid-cols-1 lg:grid-cols-2 items-center gap-xl bg-background p-md lg:p-xl rounded-xl">
             <div class="order-2 lg:order-1">
                 <div class="flex text-primary mb-md">

@@ -6,7 +6,7 @@
     let { turnstileSiteToken }: { turnstileSiteToken: string } = $props();
 </script>
 
-<div class="lg:col-span-7 bg-white p-[48px] border border-outline-variant shadow-sm">
+<div class="lg:col-span-7 bg-white p-5 sm:p-[48px] border border-outline-variant shadow-sm">
     <h2 class="font-headline-lg text-headline-lg mb-8 uppercase text-on-background">Project Details</h2>
 
     <form {...contactForm.enhance(async ({ submit, form }) => {

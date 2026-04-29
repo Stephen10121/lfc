@@ -83,7 +83,7 @@
     <div id="turnstile-container"></div>
     <Hero />
     
-    <section class="max-w-360 mx-auto px-6 lg:px-12 py-xl">
+    <section class="max-w-360 mx-auto px-2 sm:px-6 lg:px-12 py-xl">
         <div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-start">
             <LeadGenForm turnstileSiteToken={token} />
 

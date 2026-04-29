@@ -2,12 +2,12 @@
     import { ClipboardClock, Mail, Phone } from "@lucide/svelte";
 </script>
 
-<div class="bg-zinc-900 text-white p-lg shadow-sm border border-zinc-800">
+<div class="bg-zinc-900 text-white p-5 sm:p-lg shadow-sm border border-zinc-800">
     <h3 class="font-headline-md text-headline-md mb-6 uppercase text-primary">Business Contact</h3>
 
     <div class="space-y-6">
         <div class="flex items-start gap-4">
-            <Phone class="text-primary" />
+            <Phone class="text-primary w-[24px] h-[24px] shrink-0" />
 
             <div>
                 <p class="font-label-sm text-zinc-400 uppercase tracking-widest">Phone</p>
@@ -16,7 +16,7 @@
         </div>
 
         <div class="flex items-start gap-4">
-            <Mail class="text-primary" />
+            <Mail class="text-primary w-[24px] h-[24px] shrink-0" />
             
             <div>
                 <p class="font-label-sm text-zinc-400 uppercase tracking-widest">Email</p>
@@ -25,7 +25,7 @@
         </div>
         
         <div class="flex items-start gap-4">
-            <ClipboardClock class="text-primary" />
+            <ClipboardClock class="text-primary w-[24px] h-[24px] shrink-0" />
 
             <div>
                 <p class="font-label-sm text-zinc-400 uppercase tracking-widest">Business Hours</p>

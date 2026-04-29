@@ -12,7 +12,7 @@
             </div>
 
             <div class="grid grid-cols-2 gap-md mt-lg">
-                <div class="flex items-start gap-4">
+                <div class="flex items-start gap-4 flex-col sm:flex-row">
                     <BadgeCheck class="text-primary" />
                     
                     <div>
@@ -21,7 +21,7 @@
                     </div>
                 </div>
 
-                <div class="flex items-start gap-4">
+                <div class="flex items-start gap-4 flex-col sm:flex-row">
                     <Palette class="text-primary" />
                     <div>
                         <h4 class="font-headline-md text-sm uppercase">Vinyl Coated</h4>

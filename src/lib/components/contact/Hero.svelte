@@ -1,6 +1,10 @@
+<script lang="ts">
+    import grid from "@/assets/grid.png";
+</script>
+
 <section class="relative h-100 flex items-center justify-center overflow-hidden">
     <div class="absolute inset-0 z-0">
-        <img alt="Crafted Fence" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBXElvYfjVjyLgdBNpTFnJzXgRRNcVvdDelDZ5dVqKtlNrcWm654xKhr7u0VXAtJTkzcOkXmih7UxhRb8I_5iFtDkEsUtq9JWlclW6BWpPXJPtouGKDymTOj5AqEwT-D49-r7YEQx7WOQvayTV7Xp5ChX8FcESE5rHtt1Ei8sofXV0z_UtxNN_o3UtSt9iwsiOJXt2fgx15WHdfCvG54Xg-2jVYT-E-2qmPgSC20npzdOSwAK4n5DFuRLVUIA0IYJxADoKA4hO3ucvI"/>
+        <img alt="Crafted Fence" class="w-full h-full object-cover" src={grid} />
         <div class="absolute inset-0 bg-black/60"></div>
     </div>
 

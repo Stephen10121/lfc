@@ -32,7 +32,7 @@
     <Hero />
     <MainReview />
     <section class="py-xl bg-background">
-        <div class="max-w-7xl mx-auto px-8">
+        <div class="max-w-7xl mx-auto px-3 sm:px-8">
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-md">
                 <ReviewCard
                     message="Local fence co. Replaced a 64 foot fence for me. They did an amazing job, very affordable, very professional and the fence looks great!! Thank you again Bogdan!"

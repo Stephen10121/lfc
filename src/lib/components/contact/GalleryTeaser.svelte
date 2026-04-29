@@ -7,12 +7,12 @@
 
 <section class="bg-surface-container-lowest py-xl">
     <div class="max-w-360 mx-auto px-6 lg:px-12">
-        <div class="flex flex-col md:flex-row justify-between items-end mb-lg gap-4">
+        <div class="flex flex-col md:flex-row justify-between md:items-end mb-lg gap-4">
             <div>
                 <h2 class="font-headline-lg text-headline-lg uppercase text-on-background">Explore Our Work</h2>
                 <p class="font-body-md text-on-surface-variant">See the difference professional craftsmanship makes in every detail.</p>
             </div>
-            <a href="/gallery" class="border border-outline text-on-surface font-bold px-8 py-3 uppercase tracking-widest hover:bg-on-background hover:text-zinc-600 transition-all">View Gallery</a>
+            <a href="/gallery" class="w-full sm:w-fit text-center border border-outline text-on-surface font-bold px-8 py-3 uppercase tracking-widest hover:bg-on-background hover:text-zinc-600 transition-all">View Gallery</a>
         </div>
 
         <div class="grid grid-cols-2 md:grid-cols-4 gap-4 h-75">

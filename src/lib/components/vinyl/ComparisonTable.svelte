@@ -1,4 +1,4 @@
-<section class="py-xl max-w-360 px-6 lg:px-12 mx-auto">
+<section class="py-xl max-w-360 sm:px-6 lg:px-12 mx-auto">
     <div class="text-center mb-lg">
         <h2 class="font-headline-lg text-headline-lg text-on-background">The Vinyl Advantage</h2>
         <p class="font-body-md text-body-md text-on-surface-variant">Why property owners are choosing vinyl over traditional wood.</p>

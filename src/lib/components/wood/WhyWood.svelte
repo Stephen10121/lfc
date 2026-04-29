@@ -10,7 +10,7 @@
     </div>
 
     <div class="grid grid-cols-1 md:grid-cols-12 gap-gutter">
-        <div class="md:col-span-7 bg-white p-lg border border-neutral-200 shadow-sm flex flex-col justify-between">
+        <div class="md:col-span-7 bg-white p-6 sm:p-lg border border-neutral-200 shadow-sm flex flex-col justify-between">
             <div>
                 <Trees class="text-primary w-11 h-11 mb-md" />
                 <h3 class="font-headline-md text-headline-md mb-md">Natural Durability</h3>

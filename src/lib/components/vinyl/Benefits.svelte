@@ -42,19 +42,19 @@
             <h3 class="font-headline-md text-headline-md mb-4">Engineered to Your Lifestyle</h3>
             <ul class="grid grid-cols-2 gap-4">
                 <li class="flex items-center gap-2">
-                    <CircleCheck class="text-primary" />
+                    <CircleCheck class="text-primary w-4.25 h-4.25 shrink-0" />
                     <span class="font-label-md">Pet &amp; Child Friendly</span>
                 </li>
                 <li class="flex items-center gap-2">
-                    <CircleCheck class="text-primary" />
+                    <CircleCheck class="text-primary w-4.25 h-4.25 shrink-0" />
                     <span class="font-label-md">Graffiti Resistant</span>
                 </li>
                 <li class="flex items-center gap-2">
-                    <CircleCheck class="text-primary" />
+                    <CircleCheck class="text-primary w-4.25 h-4.25 shrink-0" />
                     <span class="font-label-md">Splinter Free</span>
                 </li>
                 <li class="flex items-center gap-2">
-                    <CircleCheck class="text-primary" />
+                    <CircleCheck class="text-primary w-4.25 h-4.25 shrink-0" />
                     <span class="font-label-md">Environmentally Recyclable</span>
                 </li>
             </ul>
