@@ -3,7 +3,7 @@
 </script>
 
 <section class="py-20 max-w-360 mx-auto px-6 lg:px-12">
-    <div class="flex flex-col md:flex-row justify-between items-end mb-12 gap-6">
+    <div class="flex flex-col md:flex-row justify-between md:items-end mb-12 gap-6">
         <div>
             <h2 class="text-[48px] leading-[1.2] tracking-[-0.02em] font-bold mb-2">Trusted by Neighbors</h2>
             <p class="text-[#504537]">See why we have a 5/5 star average across over hundreds of local projects.</p>
